@@ -1,0 +1,53 @@
+Análisis Epidemiológico y Demográfico de Enfermedades de Notificación Obligatoria (ENO)
+Este proyecto consiste en un entorno de análisis computacional desarrollado en Python para procesar y visualizar la base de datos nacional de Enfermedades de Notificación Obligatoria (ENO). El objetivo principal es identificar patrones temporales y demográficos en zonas geográficas específicas mediante técnicas de filtrado y agregación de datos.
+
+1. Especificaciones del Dataset
+El análisis utiliza el archivo de datos 20241218_base_eno_final.csv, el cual contiene registros históricos de notificaciones epidemiológicas.
+
+Variables Procesadas
+ENO: Identificador de la enfermedad reportada.
+
+anho_notificacion: Año calendario de la notificación (Series de tiempo).
+
+codigo_comuna_residencia: Identificador geográfico basado en la codificación territorial estándar.
+
+nacionalidad: Clasificación del origen del paciente (Chilena, Extranjera, Desconocida).
+
+sexo: Variable biológica para caracterización de la muestra.
+
+2. Arquitectura del Flujo de Trabajo
+Fase I: Configuración y Extracción
+El script implementa una conexión con el sistema de archivos de Google Drive para la persistencia de datos. La carga se realiza mediante la función read_csv de la librería Pandas, aplicando un filtro de columnas (usecols) para minimizar el consumo de recursos computacionales y optimizar el tiempo de respuesta en el entorno virtual.
+
+Fase II: Preprocesamiento y Limpieza (Data Wrangling)
+Filtrado Geo-específico: Se restringe la base de datos a las comunas de interés (Códigos: 13104, 13109, 13126).
+
+Tratamiento de Categorías: Se detectan y eliminan registros con valores "Desconocidos" en la variable de nacionalidad para evitar sesgos en el análisis de distribución.
+
+Normalización de Índices: Reindexación de los dataframes resultantes para facilitar las operaciones de cruce de datos.
+
+Fase III: Análisis Estadístico y Descriptivo
+Se ejecutan procesos de agrupación (groupby) y conteo de frecuencias para:
+
+Cuantificar la proporción de registros locales frente al total nacional.
+
+Determinar la evolución anual de los reportes.
+
+Comparar la incidencia acumulada entre pacientes nacionales y extranjeros.
+
+Fase IV: Visualización de Datos
+El notebook genera visualizaciones técnicas utilizando el motor gráfico de Matplotlib:
+
+Gráficos de Líneas: Evolución temporal de las notificaciones desde el año 2007 hasta 2024.
+
+Comparativas Multivariables: Visualización de la interacción entre el año de reporte y la nacionalidad para observar cambios en la composición de los casos a través del tiempo.
+
+3. Requisitos de Ejecución
+El entorno requiere Python 3.x y las siguientes dependencias instaladas:
+pandas
+matplotlib
+google-colab (solo para ejecución en entorno Colab)
+4. Estructura de Archivos
+Tarea_2.ipynb: Archivo principal con el código fuente y las celdas de documentación (Markdown).
+
+20241218_base_eno_final.csv: Dataset de entrada (requiere estar alojado en la ruta de Drive especificada en el código).
