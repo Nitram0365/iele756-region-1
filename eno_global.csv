@@ -1,0 +1,52 @@
+codigo_comuna,nombre_comuna,eno_total,eno_chilean,eno_foreign,eno_desconocido,eno_top3_diseases,eno_rate_per_10k
+13125,Tiltil,1592,769,270,553,VIH | Parotiditis | Coqueluche,77.42
+13108,Independencia,1642,607,786,0,,156.38095238095238
+13127,Recoleta,1978,964,501,0,,104.10526315789474
+13505,San Pedro,731,19,19,0,,609.1666666666666
+13604,Padre Hurtado,337,206,44,0,,51.84615384615385
+13111,La Granja,943,454,108,381,VIH | Parotiditis | Coqueluche,84.17989323525737
+13118,Macul,890,405,110,375,VIH | Parotiditis | Coqueluche,71.89014539579968
+13131,San Ramón,687,359,54,274,VIH | Parotiditis | Coqueluche,90.39235809583958
+13122,Peñalolén,1487,701,124,662,VIH | Parotiditis | Coqueluche,62.88
+13605,Peñaflor,441,251,32,158,VIH | Parotiditis | Coqueluche,46.72
+13102,Cerrillos,642,297,101,244,VIH | Parotiditis | Sifilis,75.49
+13302,Lampa,672,390,93,189,VIH | Parotiditis | Sifilis,46.29
+13123,Providencia,1455,1001,239,215,VIH | Sifilis | Parotiditis,92.24
+13130,San Miguel,1249,587,330,332,VIH | Parotiditis | Sifilis,115.7
+13404,Paine,390,185,74,131,VIH | Parotiditis | Coqueluche,53.6
+13117,Lo Prado,591,442,149,0,"VIH, Sifilis, Parotiditis",64.73874465987512
+13124,Pudahuel,1051,882,169,0,"VIH, Sifilis, Parotiditis",46.13291194802915
+13120,Ñuñoa,1735,830,255,650,VIH | Parotiditis | Coqueluche,71.8525
+13129,San Joaquín,767,372,161,234,VIH | Parotiditis | Coqueluche,80.2284
+13203,San José de Maipo,92,51,11,30,VIH | Parotiditis | Coqueluche,52.7493
+13104,Conchalí,1134,635,188,311,VIH | Parotiditis | Sifilis,93.26654987786524
+13109,La Cisterna,714,333,149,232,VIH | Parotiditis | Coqueluche,69.21488604748102
+13126,Quinta Normal,1361,572,431,358,VIH | Parotiditis | Sifilis,105.2175862575473
+13101,Santiago,12186,5059,3635,3492,VIH | Parotiditis | Sifilis,20988.63244919049
+13114,LAS CONDES,2123,970,231,922,VIH | Parotiditis | Sifilis,72.5219
+13503,CURACAVÍ,165,107,14,44,VIH | Sifilis | Parotiditis,47.1739
+13119,maipu,3316,1827,267,1222,VIH | Parotiditis | Coqueluche,66.24
+13112,La Pintana,1507,755,102,650,VIH | Parotiditis | Coqueluche,85.90761653393837
+13107,Huechuraba,832,456,68,308,VIH | Parotiditis | Sifilis,81.72245796008173
+13602,El Monte,146,93,18,35,VIH | Parotiditis | Sifilis,38.93644824919327
+13502,Alhué,28,14,9,5,Chagas | VIH | Parotiditis,36.04531410916581
+13504,María Pinto,32,24,4,4,VIH | Parotiditis | Chagas,20.844189682126107
+13110,La Florida,2128,1539,342,247,VIH | Sifilis | Parotiditis,56.77149473369687
+13301,Colina,1259,576,174,509,Parotiditis | VIH | Sifilis,72.65
+13501,Melipilla,824,387,245,192,VIH | Chagas | Parotiditis,60.44
+13601,Talagante,314,186,32,96,VIH | Parotiditis | Chagas,41.08
+13401,San Bernardo,2172,1129,149,894,"PAROTIDITIS, SIN COMPLICACIONES, no aplica, TOS FERINA, NO ESPECIFICADA",70.89443844228076
+13403,Calera de Tango,84,62,11,11,"no aplica, PAROTIDITIS, SIN COMPLICACIONES, HEPATITIS VIRAL TIPO B CRONICA, SIN AGENTE DELTA",32.952806873014005
+5101,Valparaíso,4821,4312,421,88,Sífilis | VIH | Tuberculosis,169.19
+5102,Casablanca,312,278,29,5,Sífilis | Coqueluche | VIH,104.43
+13201,Puente Alto,4334,2527,280,1527,VIH | Parotiditis | Coqueluche,76.77903616976423
+13105,El Bosque,1212,634,111,467,"VIH, Parotiditis, Coqueluche",78.06411305126339
+13116,Lo Espejo,678,366,72,240,"VIH, Parotiditis, Coqueluche",77.66767856120052
+13202,Pirque,136,76,8,52,"VIH, Parotiditis, Chagas",46.79972470750173
+13603,Isla de Maipo,115,67,11,37,"VIH, Parotiditis, Sifilis",29.28145847125325
+13115,Lo Barnechea,630,278,42,310,Parotiditis | Coqueluche | VIH,55.94
+13128,Renca,1064,590,113,361,VIH | Parotiditis | Coqueluche,74.08
+13402,Buin,551,251,34,266,Parotiditis | VIH | Coqueluche,47.11
+13103,Cerro Navia,1002,565,127,310,"VIH, Coqueluche, Parotiditis",79.43554780402727
+13121,Pedro Aguirre Cerda,910,452,102,356,"VIH, Parotiditis, Coqueluche",95.39784044449104
+13132,Vitacura,538,238,50,250,"Parotiditis, VIH, Coqueluche",62.922504736731305
